@@ -1,2 +1,2 @@
 language = "csharp"
-run = "mcs -out:main.exe AddTwoLL.cs && mono main.exe"
+run = "mcs -out:main.exe LinkedLists/AddTwoNumbers.cs && mono main.exe"

@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-class MainClass {
+class AddTwoNumbers {
   public static void Main (string[] args) {
     Console.WriteLine ("Hello World");
     int[] l1 = {1,2,3};
