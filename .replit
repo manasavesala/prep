@@ -1,2 +1,2 @@
 language = "csharp"
-run = "mcs -out:main.exe Arrays/MergeArrays.cs && mono main.exe"
+run = "mcs -out:main.exe Hashtable/CheckForLoopInLL.cs && mono main.exe"
