@@ -19,7 +19,8 @@ public class ChekingForloopInLL1{
       if(dist.ContainsKey(current.Value))
       {
         return true;
-      }else
+      }
+      else
       {
         dist.Add(current.Value, 1);
       }
