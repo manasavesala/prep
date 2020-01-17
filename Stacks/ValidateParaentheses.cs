@@ -19,14 +19,20 @@ ex: input:"()()"
     if(str == null){
       return false;
     }
-    for(int i=0; i<str.Length; i++){
-      if(str[i] == '('){
+    for(int i=0; i<str.Length; i++)
+    {
+      if(str[i] == '(')
+      {
         s.Push(str[i]);
       }
-      if(str[i] == ')'){
-        try{
+      if(str[i] == ')')
+      {
+        try
+        {
           s.Pop();
-        }catch(InvalidOperationException){
+        }
+        catch(InvalidOperationException)
+        {
           return false;
         }
       }

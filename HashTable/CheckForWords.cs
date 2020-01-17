@@ -24,7 +24,7 @@ public class CheckForWords{
         {
           return false;
         }
-        if(dict[word[i]]==0){
+        if(dict[word[i]] == 0){
           dict.Remove(word[i]);
         } 
       }
